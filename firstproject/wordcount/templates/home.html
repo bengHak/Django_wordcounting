@@ -1,0 +1,9 @@
+<h1>WordCount Application</h1>
+
+<a href="{% url 'about'%}">ABOUT</a>
+
+<form action="{% url 'result' %}">
+    <textarea id="" cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value="COUNT!">
+</form>
