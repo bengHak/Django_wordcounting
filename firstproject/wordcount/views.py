@@ -28,7 +28,7 @@ def about(request):
     )
 
 def result(request):
-    input_text = request.GET['fulltext']
+    input_text = request.POST['fulltext']
     word_list = input_text.split()
     word_dictionary = {}
     
